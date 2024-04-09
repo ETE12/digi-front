@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>
+Consumo de REST-API de Digimons
+</p>
+ <div>
+                        <label>Name</label>
+                        <input type="text" id="name">
+                </div>
+<div>
+                        <label>Nivel</label>
+                        <input type="text" id="nivel">
+                </div>
+
+                <div>
+                        <label>Tipo</label>
+                        <input type="text" id="tipo">
+                </div>
+
+                <div>
+                        <label>Color</label>
+                        <input type="text" id="color">
+                </div>
+<div>
+                        <label>Foto</label>
+                        <input type="text" id="foto">
+                </div>
+
+
+
+
+<button onclick="postWmon()"> Insertar </button>
+
+
+<button onclick="getBWGmon()"> Tabla </button>
+
+<div id="resultado"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src=callrestapi.js></script>
+
+</body>
+</html>
